@@ -20,9 +20,9 @@
     "content_scripts": [
         {
             "matches": [
-                "file:///*.md",          
-                "http://*/*.md",         
-                "https://*/*.md" 
+                "file:///*.md",
+                "http://*/*.md",
+                "https://*/*.md"
             ],
             "js": [
                 "lib/marked.min.js",
@@ -33,13 +33,15 @@
             ]
         }
     ],
-    "web_accessible_resources": [{
-        "resources": [
-            "lib/marked.min.js",
-            "styles/markdown.css"
-        ],
-        "matches": [
-            "*://*/*"
-        ]
-    }]
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "lib/marked.min.js",
+                "styles/markdown.css"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ]
 }
