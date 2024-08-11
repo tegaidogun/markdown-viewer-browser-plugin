@@ -12,7 +12,7 @@ Markdown Viewer is a lightweight browser extension that allows you to view Markd
 ## Installation
 
 1. **Download the Extension**:
-   - Download the latest release from the [Releases](https://github.com/yourusername/markdown-viewer-browser-plugin/releases) page.
+   - Download the latest release from the [Releases](https://github.com/tegaidogun/markdown-viewer-browser-plugin/releases) page.
    
 2. **Install in Firefox**:
    - Go to `about:debugging` > "This Firefox" > "Load Temporary Add-on" and select the `.xpi` file.
